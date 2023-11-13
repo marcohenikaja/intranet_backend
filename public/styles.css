@@ -1,0 +1,15 @@
+/* Animation de fondu (fade-in) */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Appliquer l'animation au texte et centrer le texte */
+.center-text {
+    text-align: center; /* Pour centrer le texte horizontalement */
+    animation: fadeIn 1s ease-in-out;
+}
